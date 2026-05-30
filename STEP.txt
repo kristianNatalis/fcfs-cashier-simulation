@@ -1,0 +1,38 @@
+STEP 1: Mulai program
+        ↓
+STEP 2: Tanya "Berapa pelanggan?" → simpan ke n
+        ↓
+STEP 3: Ulangi n kali:
+        ├── Input nama
+        ├── Input jam datang (arrival)
+        └── Input lama layanan (burst)
+        ↓
+STEP 4: Tampilkan semua data yang diinput
+        ↓
+STEP 5: Urutkan pelanggan berdasarkan jam datang (paling awal di depan)
+        ↓
+STEP 6: Mulai dari waktu = 0
+        ↓
+STEP 7: Untuk setiap pelanggan (sesuai urutan):
+        │
+        ├── Cek: Apakah pelanggan sudah datang?
+        │   ├── BELUM → Kasir nganggur, tunggu sampai jam datang
+        │   └── SUDAH → Lanjut
+        │
+        ├── Hitung:
+        │   ├── Mulai layanan = waktu sekarang
+        │   ├── Selesai = mulai + lama layanan
+        │   ├── TAT = selesai - jam datang
+        │   └── WT = TAT - lama layanan
+        │
+        └── Update: waktu sekarang = selesai
+        ↓
+STEP 8: Tampilkan Gantt Chart
+        ↓
+STEP 9: Tampilkan tabel hasil (TAT, WT tiap pelanggan)
+        ↓
+STEP 10: Hitung rata-rata WT dan TAT
+        ↓
+STEP 11: Tanya "Simpan ke file?" → Ya/No
+        ↓
+STEP 12: Selesai

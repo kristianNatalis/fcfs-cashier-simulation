@@ -1,0 +1,17 @@
+| Nama                | Singkatan | Rumus                            		| Arti                                   |
+| ------------------- | --------- | -------------------------------- 		| -------------------------------------- |
+| **Turnaround Time** | TAT       | `Selesai - Datang`               		| Total waktu dari datang sampai selesai |
+| **Waiting Time**    | WT        | `TAT - Lama Layanan`             		| Waktu nunggu doang (belum dilayani)    |
+| **Average TAT**     | Avg TAT   | `(TAT1 + TAT2 + ... + TATn)/pelanggan` 	| Rata-rata total waktu                  |
+| **Average WT**      | Avg WT    | `(WT1 + WT2 + ... + WTn) / pelanggan`    	| Rata-rata waktu nunggu                 |
+
+
+
+
+PENJELASAN KATA
+| Istilah         | Arti                                 | Contoh                                            |
+| --------------- | ------------------------------------ | ------------------------------------------------- |
+| **TAT**         | Lama di minimarket (datang → pulang) | Andi datang jam 0, pulang jam 10 → TAT = 10 menit |
+| **WT**          | Lama nunggu doang (belum dilayani)   | Budi datang jam 2, dilayani jam 10 → WT = 8 menit |
+| **Average TAT** | Rata-rata lama orang di minimarket   | (10 + 13) / 2 = 11.5 menit                        |
+| **Average WT**  | Rata-rata lama orang nunggu          | (0 + 8) / 2 = 4 menit                             |
