@@ -78,9 +78,6 @@ Jika kamu ingin menguji fitur kasir nganggur, kamu bisa mencoba memasukkan data 
 * **Pelanggan 1:** Fani, Datang: 5, Lama Layanan: 4
 * **Pelanggan 2:** Gilang, Datang: 12, Lama Layanan: 6
 * **Pelanggan 3:** Hani, Datang: 20, Lama Layanan: 3
-
-### Output Laporan Berhasil (`hasil_fcfs.txt`):
-
 ============================================================
   HASIL SIMULASI FCFS - ANTRIAN KASIR MINIMARKET
 ============================================================
